@@ -12,7 +12,7 @@ def landing(request):
         print(data["name"])
 
         new_form = form.save()
-    return render(request, 'landing/landing.html', locals())
+    return render(request, 'base.html', locals())
 
 
 # def head(request):

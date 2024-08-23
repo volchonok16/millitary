@@ -1,0 +1,11 @@
+.header-text{
+    color: #4b5320 !important;
+}
+.header-text:hover{
+        color: #FFFF !important;
+        background: #4b5320;
+}
+.header-text:active{
+        color: #FFFF !important;
+        background: #4b5320;
+}

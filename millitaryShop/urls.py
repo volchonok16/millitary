@@ -21,5 +21,8 @@ admin.autodiscover()
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('landing.urls'))
+    path('', include('landing.urls')),
+    path('', include('products.urls')),
+    path('', include('orders.urls'))
+
 ]
