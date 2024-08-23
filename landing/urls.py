@@ -20,7 +20,6 @@ from django.urls import path, include
 from landing import views
 
 urlpatterns = [
-    path('', views.landing),
-    # path('contacts/', views.head),
+    path('', views.home, name='home'),
 
 ]
